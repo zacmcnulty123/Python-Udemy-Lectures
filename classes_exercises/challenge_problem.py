@@ -2,7 +2,7 @@
 #This class should contain two methods: deposit, withdraw where withdraw <= balance
 class Account():
 
-    def __init__(self, owner, balance):
+    def __init__(self, owner, balance=0):
         self.owner = owner
         self.balance = balance
     
